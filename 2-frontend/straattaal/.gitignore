@@ -1,6 +1,4 @@
-artefacts/*
-assets/*
+.venv/*
 !**/.gitkeep
 **/logs
-Dockerfile
-Makefile
+
