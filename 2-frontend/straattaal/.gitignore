@@ -1,4 +1,7 @@
 .venv/*
 !**/.gitkeep
 **/logs
+pyproject.toml
+slanggen.toml
+uv.lock
 
