@@ -1,0 +1,9 @@
+services:
+  model:
+    build:
+      context: ./backend
+    ports: 
+      - "80:80"
+    volumes:
+      - ./static:/app/static
+      - ./artefacts:/app/artefacts
